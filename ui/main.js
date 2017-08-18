@@ -3,7 +3,7 @@ console.log('Loaded!');
 var element=document.getElementById("main-text");
 element.innerHTML='Hi!I\'m Aesh Gupta,This is my first Web App.';
 
-var img=document.getElementbyId("madi");
+var img=document.getElementById("madi");
 var marginLeft=0;
 function moveRight(){
     marginLeft=marginLeft+5;
